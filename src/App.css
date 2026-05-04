@@ -109,6 +109,23 @@ body {
   border-radius: 15px;
   backdrop-filter: blur(10px);
   transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(59,130,246,0.3), transparent);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .card:hover {
