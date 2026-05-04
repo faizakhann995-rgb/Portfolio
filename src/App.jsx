@@ -39,9 +39,29 @@ function App() {
             <p>Fullstack CRUD app with React, Node, MongoDB</p>
 
             <div className="card-links">
-              <a href="https://client-backend-1hin.onrender.com/users" target="_blank">API</a>
-              <a href="https://frontend-ten-sooty-58.vercel.app/" target="_blank">Live</a>
-              <a href="https://github.com/faizakhann995-rgb/frontend" target="_blank">Code</a>
+              <a
+                href="https://client-backend-1hin.onrender.com/users"
+                target="_blank"
+                rel="noreferrer"
+              >
+                API
+              </a>
+
+              <a
+                href="https://frontend-ten-sooty-58.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/faizakhann995-rgb/frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code
+              </a>
             </div>
           </div>
         </div>
